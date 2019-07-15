@@ -1,5 +1,6 @@
 <template>
   <v-list dense class="pt-0">
+    <!-- :toでrouter-linkなどの内部でのリンクに飛ばせる -->
     <v-list-tile
       v-for="(item, i) in listItems"
       :key="i"

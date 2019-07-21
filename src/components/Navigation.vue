@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import DrawerList from '../components/DrawerList.vue';
+import DrawerList from './DrawerList.vue';
 @Component({
   components: {
     DrawerList,
